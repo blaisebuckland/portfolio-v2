@@ -1,0 +1,31 @@
+@import "../../variables.scss";
+
+* {
+    font-family: $font-display;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 60px 0px 60px;
+}
+
+.navLinksContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 700px;
+}
+
+.logo {
+    color: $color-secondary;
+    font-size: 40px;
+}
+
+.btn {
+    background-color: $color-secondary;
+    padding: 8px;
+    border-radius: 2px;
+}
+
