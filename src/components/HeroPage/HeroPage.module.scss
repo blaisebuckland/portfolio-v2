@@ -1,0 +1,58 @@
+@import "../../variables.scss";
+
+.heroContainer {
+    height: 92vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.textContainer {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.heading {
+    font-size: 40px;
+}
+
+.headingStylised {
+    color: $color-secondary;
+}
+.scrollSection {
+    // text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 88px;
+    align-items: center;
+    
+}
+.scrollIcon {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    color: $color-secondary;
+    // width: 500px;
+    // text-align: center;
+}
+
+.profileImg {
+    height: 550px;
+    border-radius: 2px;
+}
+
+.colourBox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: $color-primary;
+    height:96vh;
+    width: 670px;
+}
+
+
+
