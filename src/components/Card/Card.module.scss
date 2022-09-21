@@ -1,0 +1,15 @@
+@import "../../variables.scss";
+// <div className={styles.projectContainer}>
+// <img src={image} alt={name} className={styles.projectImg}/>
+// <h1 className={styles.projectHeading}>{name}</h1>
+// <section>
+//     {
+//         technologies.map((technology) => <div className={styles.technologies}>{technology}</div>)
+//     }
+// </section>
+// </div>
+
+.projectImg {
+    height: 300px;
+}
+
