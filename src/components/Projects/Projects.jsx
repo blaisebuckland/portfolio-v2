@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Projects.module.scss';
 import Card from '../Card';
 
-import { projectData } from '../../projectData';
+import { projectData } from '../../data/projectData';
 
 const Projects = () => {
 
@@ -12,11 +12,13 @@ const Projects = () => {
 
   return (
     <>
-    <h2>Check out my recent projects</h2>
     <section className={styles.projectsContainer}>
-    {projectData.map((project) => {
-      return renderCard(project)
-    })}
+      <h2 className={styles.heading}>Check out my <span className={styles.headingStylised}>recent projects</span></h2>
+      <div className={styles.cardsContainer}>
+      {projectData.map((project) => {
+        return renderCard(project)
+      })}
+      </div>
     </section>
     </>
   )

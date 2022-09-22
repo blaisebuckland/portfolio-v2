@@ -2,4 +2,25 @@
 
 .projectsContainer {
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75vh;
+    margin: 0 $margin-sides-desktop;
+}
+
+.cardsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    // display: flex;
+    // flex-wrap: wrap;
+    // align-items: center;
+    // justify-content: center;
+}
+.heading {
+    width: 100%;
+}
+.headingStylised {
+    color: $color-secondary;
 }

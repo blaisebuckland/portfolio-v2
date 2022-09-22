@@ -7,12 +7,12 @@ const Card = (props) => {
 console.log(image)
 
   return (
-    <div className={styles.cardContainer}>
+    <div className={styles.card}>
         <img src={image} alt={name} className={styles.projectImg}/>
         <h3 className={styles.projectHeading}>{name}</h3>
         <ul>
             {
-                technologies.map((technology) => <li className={styles.technologies}>{technology}</li>)
+                technologies.map((technology) => <li className={styles.technologies} key={technology}>{technology}</li>)
             }
         </ul>
     </div>
