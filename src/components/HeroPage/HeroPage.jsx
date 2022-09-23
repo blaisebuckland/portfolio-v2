@@ -20,6 +20,7 @@ const HeroPage = () => {
       </section>
       <img src={profile} alt="profile" className={styles.profileImg}/>
     </div>
+    
     <div className={styles.colourBox}></div>
     </>
   )
