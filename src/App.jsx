@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './App.module.scss';
 import About from './components/About';
-import Footer from './components/Footer';
 import HeroPage from './components/HeroPage';
 import NavBar from './components/NavBar';
 import Projects from './components/Projects';
 import SideNav from './components/SideNav';
 import Skills from './components/Skills';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
     <Projects />
     <Skills />
     <About />
-    <Footer />
+    <Contact />
     </>
   )
 }
