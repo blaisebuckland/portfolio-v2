@@ -1,0 +1,28 @@
+@import "../../variables.scss";
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background: rgb(255,241,232);
+background: linear-gradient(180deg, rgba(255,241,232,1) 0%, rgba(255,89,150,1) 100%);
+}
+.headingStylised {
+    color: $color-secondary;
+}
+
+.footerBar {
+    background-color: $color-secondary;
+}
+.logo {
+    color: $color-black;
+    font-size: 40px;
+    text-align: end;
+    padding: 12px;
+}
+a {
+    color: $color-black;
+}
+

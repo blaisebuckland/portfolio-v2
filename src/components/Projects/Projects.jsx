@@ -12,7 +12,7 @@ const Projects = () => {
 
   return (
     <>
-    <section className={styles.projectsContainer}>
+    <section className={styles.projectsContainer} id="projects">
       <h2 className={styles.heading}>Check out my <span className={styles.headingStylised}>recent projects</span></h2>
       <div className={styles.cardsContainer}>
       {projectData.map((project) => {

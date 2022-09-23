@@ -1,6 +1,27 @@
 @import "../../variables.scss";
 
-.projectImg {
-    height: 300px;
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 425px;
+    width: 600px;
+    transform-style: preserve-3d;
+    transition: 400ms;
+    // border: 2px solid $color-white;
+    // background-color: $color-primary;
 }
 
+.faceDown {
+    transform: perspective(500px) rotateY(-180deg);
+}
+
+.front, .back {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.back {
+    transform: rotateY(180deg);
+}

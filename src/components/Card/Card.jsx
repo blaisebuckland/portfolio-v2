@@ -1,22 +1,25 @@
-import React from 'react';
-import styles from './Card.module.scss'
+import React, { useState } from 'react';
+import CardBack from '../CardBack/CardBack';
+import CardFront from '../CardFront/CardFront';
+import styles from './Card.module.scss';
 
 const Card = (props) => {
 
-    const { name, description, image, github, url, technologies } = props.project;
-console.log(image)
+  const { project } = props;
 
+  const [isFaceDown, setIsFaceDown] = useState(false)
+
+  const flipStyles = isFaceDown ? styles.faceDown : "";
   return (
-    <div className={styles.card}>
-        <img src={image} alt={name} className={styles.projectImg}/>
-        <h3 className={styles.projectHeading}>{name}</h3>
-        <ul>
-            {
-                technologies.map((technology) => <li className={styles.technologies} key={technology}>{technology}</li>)
-            }
-        </ul>
-    </div>
+    <section className={`${styles.card} ${flipStyles}`} onClick={() => setIsFaceDown(!isFaceDown)}>
+      <div className={styles.front}>
+        <CardFront project={project} />
+      </div>
+      <div className={styles.back}>
+        <CardBack project={project} />
+      </div>
+    </section>
   )
 }
 
-export default Card;
+export default Card
