@@ -9,7 +9,7 @@ const NavBar = () => {
       <div className={styles.navLinksContainer}>
         <a href="#projects" className={styles.navLinks}>Portfolio</a>
         <a href="#about" className={styles.navLinks}>About</a>
-        <button className={styles.btn}>Get in touch</button>
+        <a href="#contact" className={`${styles.navLinks} ${styles.contactLink}`}>Contact me</a>
       </div>
     </nav>
     </>

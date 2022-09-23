@@ -1,14 +1,10 @@
 @import "../../variables.scss";
 
-* {
-    font-family: $font-display;
-}
-
 .navContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 60px 0px 60px;
+    margin: $margin-top-desktop $margin-sides-desktop;
     height: 8vh;
 }
 
@@ -17,16 +13,24 @@
     justify-content: space-evenly;
     align-items: center;
     width: 700px;
+
 }
 
 .logo {
     color: $color-secondary;
     font-size: 40px;
+    font-weight: normal;
 }
 
-.btn {
+.navLinks {
+    font-size: 20px;
+    font-weight: 500;
+    color: $color-black;
+}
+
+.contactLink {
     background-color: $color-secondary;
-    padding: 8px;
-    border-radius: 2px;
+    padding: 10px;
+    border: none;
 }
 
