@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: $margin-top-desktop $margin-sides-desktop;
+    padding: $margin-top-desktop $margin-sides-desktop;
     height: 8vh;
 }
 
@@ -26,6 +26,7 @@
     font-size: 20px;
     font-weight: 500;
     color: $color-black;
+    cursor: pointer;
 }
 
 .contactLink {

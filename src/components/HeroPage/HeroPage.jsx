@@ -15,7 +15,7 @@ const HeroPage = () => {
         <p className={styles.intro}>Egestas dictumst enim dui ante nisl risus commodo. Pellentesque dignissim praesent purus in neque erat et. Cras donec ut orci eget neque bibendum cras. Vitae, ultricies arcu pretium duis.</p>
         <div className={styles.scrollSection}>
           <p>Scroll Down</p>
-         <FontAwesomeIcon icon={faAnglesDown} className={styles.scrollIcon}/>
+          <a href="#projects"><FontAwesomeIcon icon={faAnglesDown} className={styles.scrollIcon}/></a>
         </div>
       </section>
       <img src={profile} alt="profile" className={styles.profileImg}/>
