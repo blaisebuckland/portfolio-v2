@@ -6,22 +6,25 @@
     align-items: center;
     justify-content: space-evenly;
     height: 25vh;
-    margin: $margin-sides-desktop;
+    margin: 100px $margin-sides-desktop;
 }
 
 .list {
     display: flex;
     justify-content: space-between;
-    width: 80vw;
+    width: 60vw;
     list-style-type: none;
 }
 
 .listItem {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
 }
 
 .skillsIcon {
     font-size: 44px;
-    color: aqua;
+    color: $color-primary;
 }

@@ -8,7 +8,7 @@ const Skills = () => {
     <>
     <section className={styles.skillsContainer}>
       <h2>Skills</h2>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur provident facilis possimus mollitia officia? Animi veritatis quaerat repellat voluptates debitis!</p>
+      <p>Below are some of the technologies I have worked with so far.</p>
       <ul className={styles.list}>
         {skillsArr.map((skill) => <li key={skill.name} className={styles.listItem}> <span className={styles.skillsIcon}>{skill.icon}</span> {skill.name}</li> )}
       </ul>

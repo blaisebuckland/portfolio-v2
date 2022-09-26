@@ -51,7 +51,7 @@ export const skillsArr = [
     icon: <FontAwesomeIcon icon={faNodeJs} />,
   },
   {
-    name: "Jest / Enzyme / React Testing Library",
+    name: "Testing",
     icon: <FontAwesomeIcon icon={faVials} />,
   },
   {
