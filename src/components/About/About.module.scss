@@ -3,16 +3,35 @@
 .aboutContainer {
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-start;
+    // align-items: center;
+    height: 50vh;
+    width: 80vw;
+    margin: 200px 10vw 100px 10vw;
+
+    // margin: 0 160px 0 160px;
 }
 
-.textContainer {
+.experienceContainer {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 400px;
+    // width: 900px;
 }
 
-.aboutIntro {
-    width: 1200px;
+.jobContainer {
+    width: 270px;
+    margin: 0 15px 0 15px;
+}
+
+.companyLogo {
+    height: 50px;
+    margin: 5px 0 15px 0;
+}
+
+.jobHeading {
+    font-weight: 700;
+    // margin: 15px;
+}
+
+.jobSubheading {
+    font-size: 12px;
+    margin-bottom: 15px;
 }
