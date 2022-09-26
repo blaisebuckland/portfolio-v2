@@ -1,16 +1,20 @@
 @import "../../variables.scss";
 
+// .cardAndInfoContainer {
+// }
+
 .card {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 425px;
-    width: 600px;
+    height: 275px;
+    width: 438.42px;
     transform-style: preserve-3d;
     transition: 400ms;
-    // border: 2px solid $color-white;
-    // background-color: $color-primary;
+    cursor: pointer;
+    border: 1px solid $color-black;
+    border-radius: 2px;
 }
 
 .faceDown {
@@ -24,4 +28,26 @@
 
 .back {
     transform: rotateY(180deg);
+}
+
+.technologyList {
+    list-style: none;
+    display: flex;
+}
+
+.technologies {
+    background-color: $color-black;
+    color: $color-primary;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 4px;
+    font-size: 12px;
+}
+
+.projectHeading {
+    // text-decoration: underline;
+    width: 440px;
+    border-bottom: 1px solid $color-black;
+    padding-bottom: 8px;
+    margin: 8px 0;
 }

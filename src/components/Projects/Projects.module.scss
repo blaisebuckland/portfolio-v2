@@ -5,21 +5,18 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    // margin: 0 $margin-sides-desktop;
     background: rgb(255,241,232);
-background: linear-gradient(0deg, rgba(255,241,232,1) 0%, rgba(255,89,150,1) 100%);
+    background: linear-gradient(0deg, rgba(255,241,232,1) 0%, rgba(255,89,150,1) 100%);
+    padding: 0 $margin-sides-desktop;
+    height: 100vh;
 }
 
 .cardsContainer {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    // grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 70px;
 }
 .heading {
     width: 100%;
-}
-.headingStylised {
-    color: $color-secondary;
 }

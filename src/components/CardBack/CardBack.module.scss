@@ -1,11 +1,23 @@
 @import "../../variables.scss";
 
 .cardBack {
-    // padding: 50px;
+    height: 273px;
+    background-color: $color-primary;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 2px;
 }
 
-.textContainer {
-    height: 275px;
-    // width: 500px;
-    background-color: $color-primary;
+.projectLinkContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projectLink {
+    color: $color-primary;
+    background-color: $color-black;
+    border-radius: 20px;
+    padding: 3px 6px;
 }

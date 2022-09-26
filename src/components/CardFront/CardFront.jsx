@@ -8,7 +8,6 @@ const CardFront = (props) => {
   return (
     <div className={styles.cardFront}>
         <img src={image} alt={name} className={styles.projectImg}/>
-        <h3 className={styles.projectHeading}>{name}</h3>
     </div>
   )
 }

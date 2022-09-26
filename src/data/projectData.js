@@ -12,7 +12,7 @@ export const projectData = [
     image: pairsImg,
     github: "https://github.com/blaisebuckland/pairs-game",
     url: "https://blaisebuckland.github.io/pairs-game/",
-    technologies: [1, 2, 3],
+    technologies: ["JavaScript", "SCSS", "BEM"],
   },
   {
     name: "Brewdog API",
@@ -21,7 +21,7 @@ export const projectData = [
     image: brewdogImg,
     github: "https://github.com/blaisebuckland/brewdog",
     url: "https://blaisebuckland.github.io/brewdog/",
-    technologies: [1, 2, 3],
+    technologies: ["React", "API Integration", "Enzyme", "SCSS"],
   },
   {
     name: "Morse Code Translator",
@@ -30,7 +30,7 @@ export const projectData = [
     image: morseImg,
     github: "https://github.com/blaisebuckland/morse-code-translator",
     url: "blaisebuckland.github.io/morse-code-translator",
-    technologies: [1, 2, 3],
+    technologies: ["JavaScript", "Jest"],
   },
   {
     name: "Hostile Aliens",
@@ -39,7 +39,7 @@ export const projectData = [
     image: hostileAliensImg,
     github: "https://github.com/blaisebuckland/hostile-aliens",
     url: "blaisebuckland.github.io/hostile-aliens/",
-    technologies: [1, 2, 3],
+    technologies: ["JavaScript", "Jest"],
   },
   {
     name: "Calculator",
@@ -48,6 +48,6 @@ export const projectData = [
     image: calculatorImg,
     github: "https://github.com/blaisebuckland/calculator",
     url: "blaisebuckland.github.io/calculator/",
-    technologies: [1, 2, 3],
+    technologies: ["JavaScript", "SCSS", "BEM"],
   },
 ];

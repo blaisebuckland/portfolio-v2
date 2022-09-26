@@ -11,12 +11,22 @@ const Card = (props) => {
 
   const flipStyles = isFaceDown ? styles.faceDown : "";
   return (
-    <section className={`${styles.card} ${flipStyles}`} onClick={() => setIsFaceDown(!isFaceDown)}>
-      <div className={styles.front}>
-        <CardFront project={project} />
+    <section className={styles.cardAndInfoContainer}>
+      <div className={`${styles.card} ${flipStyles}`} onClick={() => setIsFaceDown(!isFaceDown)}>
+        <div className={styles.front}>
+          <CardFront project={project} />
+        </div>
+        <div className={styles.back}>
+          <CardBack project={project} />
+        </div>
       </div>
-      <div className={styles.back}>
-        <CardBack project={project} />
+      <div>
+        <h3 className={styles.projectHeading}>{project.name}</h3>
+        <ul className={styles.technologyList}>
+                {
+                    project.technologies.map((technology) => <li className={styles.technologies} key={technology}>{technology}</li>)
+                }
+            </ul>  
       </div>
     </section>
   )

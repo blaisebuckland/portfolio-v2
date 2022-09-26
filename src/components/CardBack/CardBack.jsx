@@ -7,15 +7,11 @@ const CardBack = (props) => {
 
   return (
     <div className={styles.cardBack}>
-      <div className={styles.textContainer}>
       <p>{description}</p>
-          <ul>
-              {
-                  technologies.map((technology) => <li className={styles.technologies} key={technology}>{technology}</li>)
-              }
-          </ul>  
+      <div className={styles.projectLinkContainer}>
+        <a href={url} target="_blank" rel="noreferrer" className={styles.projectLink}>Preview</a>
+        <a href={github} target="_blank" rel="noreferrer" className={styles.projectLink}>GitHub</a>
       </div>
-      <h3 className={styles.projectHeading}>{name}</h3>
     </div>
   )
 }
