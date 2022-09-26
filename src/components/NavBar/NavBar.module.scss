@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: $margin-top-desktop $margin-sides-desktop;
+    padding: $margin-top-desktop $margin-sides-desktop 0 $margin-sides-desktop;
     height: 8vh;
 }
 
@@ -29,9 +29,16 @@
     cursor: pointer;
 }
 
+.navLinks:hover {
+    color: $color-secondary;
+}
+
 .contactLink {
     background-color: $color-secondary;
     padding: 10px;
     border: none;
 }
 
+.contactLink:hover {
+    color: $color-primary;
+}

@@ -4,7 +4,7 @@ import styles from './NavBar.module.scss';
 const NavBar = () => {
   return (
     <>
-    <nav className={styles.navContainer}>
+    <nav className={styles.navContainer} id="navBar">
       <h2 className={styles.logo}>BB</h2>
       <div className={styles.navLinksContainer}>
         <a href="#projects" className={styles.navLinks}>Portfolio</a>
