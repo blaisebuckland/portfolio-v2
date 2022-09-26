@@ -1,7 +1,15 @@
 @import "./variables.scss";
 
 * {
-    color: $color-black;
     font-family: $font-body;
-    // background-color: $color-white;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+body {
+
+    background-color: $color-white;
 }
