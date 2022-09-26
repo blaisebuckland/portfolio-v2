@@ -9,6 +9,10 @@
     background: rgb(255,241,232);
 background: linear-gradient(180deg, rgba(255,241,232,1) 0%, rgba(255,89,150,1) 100%);
 }
+.heading {
+    margin-bottom: 20px;
+}
+
 .headingStylised {
     color: $color-secondary;
 }
@@ -22,7 +26,23 @@ background: linear-gradient(180deg, rgba(255,241,232,1) 0%, rgba(255,89,150,1) 1
     text-align: end;
     padding: 12px;
 }
-a {
+.contactLink, .btn {
     color: $color-black;
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.contactLink:hover {
+    color:$color-primary;
+}
+
+.btn {
+    background-color: $color-primary;
+    padding: 8px;
+}
+.btn:hover {
+    background-color: $color-primary;
+    padding: 8px;
+    color: $color-secondary;
 }
 
