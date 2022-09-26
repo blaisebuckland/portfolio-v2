@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, animateScroll} from "react-scroll";
 import styles from './HeroPage.module.scss';
 import profile from '../../assets/profile.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -15,7 +16,7 @@ const HeroPage = () => {
         <p className={styles.intro}>Egestas dictumst enim dui ante nisl risus commodo. Pellentesque dignissim praesent purus in neque erat et. Cras donec ut orci eget neque bibendum cras. Vitae, ultricies arcu pretium duis.</p>
         <div className={styles.scrollSection}>
           <p>Scroll Down</p>
-          <a href="#projects"><FontAwesomeIcon icon={faAnglesDown} className={styles.scrollIcon}/></a>
+          <Link to="projects" smooth={true} duration={500}><FontAwesomeIcon icon={faAnglesDown} className={styles.scrollIcon}/></Link>
         </div>
       </section>
       <img src={profile} alt="profile" className={styles.profileImg}/>
