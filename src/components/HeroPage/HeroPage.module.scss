@@ -27,19 +27,17 @@
 .scrollSection {
     text-align: center;
     display: flex;
-    // flex-direction: column;
     width: 88px;
     align-items: center;
     
 }
 .scrollIcon {
-    // margin-top: 20px;
     margin-left: 30px;
     width: 35px;
     height: 35px;
     color: $color-secondary;
-    // width: 500px;
     text-align: center;
+    cursor: pointer;
 }
 
 .profileImg {

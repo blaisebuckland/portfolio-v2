@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, animateScroll} from "react-scroll";
+import { Link} from "react-scroll";
 import styles from './HeroPage.module.scss';
 import profile from '../../assets/profile.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -13,7 +13,7 @@ const HeroPage = () => {
         <h2 className={styles.heading}>I'm a <br/>
         <span className={styles.headingStylised}>Junior Software Developer</span>
         </h2>
-        <p className={styles.intro}>Egestas dictumst enim dui ante nisl risus commodo. Pellentesque dignissim praesent purus in neque erat et. Cras donec ut orci eget neque bibendum cras. Vitae, ultricies arcu pretium duis.</p>
+        <p className={styles.intro}>This year, alongside my job at the Ministry of Justice, I have retrained as a software developer. Now I'm excited to apply the technical skills I've developed, as well as my existing experience, to progress and excel in my career as a software developer.</p>
         <div className={styles.scrollSection}>
           <p>Scroll Down</p>
           <Link to="projects" smooth={true} duration={500}><FontAwesomeIcon icon={faAnglesDown} className={styles.scrollIcon}/></Link>
