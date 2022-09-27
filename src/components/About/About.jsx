@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './About.module.scss';
 
+import { skillsArr } from '../../data/skillsData';
 import nology from '../../assets/nology.svg'
 import jac from '../../assets/JAC.webp'
 
@@ -44,7 +45,12 @@ const About = () => {
           </div>
         </section>
     </section>
-    
+    <div className={styles.skillsContainer}>
+        <p className={styles.skillsIntro}>Below are some of the technologies I have worked with so far...</p>
+        <ul className={styles.list}>
+          {skillsArr.map((skill) => <li key={skill.name} className={styles.listItem}> <span className={styles.skillsIcon}>{skill.icon}</span> {skill.name}</li> )}
+        </ul>
+      </div>
     </>
   )
 }

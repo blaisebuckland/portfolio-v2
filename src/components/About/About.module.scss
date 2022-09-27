@@ -6,9 +6,15 @@
     // align-items: center;
     height: 50vh;
     width: 80vw;
-    margin: 200px 10vw 100px 10vw;
+    margin: 100px 10vw 0 10vw;
 
     // margin: 0 160px 0 160px;
+}
+
+.aboutHeading{
+    // color: $color-secondary;
+    border-bottom: 1px solid $color-black;
+    height: 50px;
 }
 
 .experienceContainer {
@@ -34,4 +40,39 @@
 .jobSubheading {
     font-size: 12px;
     margin-bottom: 15px;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    // text-align: center;
+    // justify-content: center;
+    align-items: center;
+}
+
+.skillsIntro {
+    
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.skillsIcon {
+    font-size: 44px;
+    color: $color-primary;
 }
