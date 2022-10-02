@@ -29,7 +29,6 @@
     display: flex;
     width: 88px;
     align-items: center;
-    
 }
 .scrollIcon {
     margin-left: 30px;
@@ -51,9 +50,17 @@
     right: 0;
     z-index: -1;
     background-color: $color-primary;
-    height:96vh;
-    width: 670px;
+    height: 92vh;
+    width: 35vw;
 }
 
+@media screen and (max-width: 1310px) {
+    .profileImg {
+        display: none;
+    }
 
-
+    .heroContainer {
+        justify-content: center;
+    }
+    
+}
