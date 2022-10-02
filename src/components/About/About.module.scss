@@ -3,23 +3,17 @@
 .aboutContainer {
     display: flex;
     justify-content: space-evenly;
-    // align-items: center;
-    height: 50vh;
     width: 80vw;
-    margin: 100px 10vw 0 10vw;
+    margin: 100px 10vw 50px 10vw;
 
-    // margin: 0 160px 0 160px;
 }
 
 .aboutHeading{
-    // color: $color-secondary;
-    border-bottom: 1px solid $color-black;
-    height: 50px;
+    margin-right: 20px;
 }
 
 .experienceContainer {
     display: flex;
-    // width: 900px;
 }
 
 .jobContainer {
@@ -51,7 +45,7 @@
 }
 
 .skillsIntro {
-    
+    font-size: 19px;
 }
 
 .list {
@@ -75,4 +69,18 @@
 .skillsIcon {
     font-size: 44px;
     color: $color-primary;
+}
+
+@media screen and (max-width: 1410px) {
+
+    .aboutContainer {
+        flex-direction: column;
+    }
+    .aboutHeading {
+        margin-bottom: 50px;
+    }
+    .experienceContainer{
+        justify-content: center;
+    }
+
 }
