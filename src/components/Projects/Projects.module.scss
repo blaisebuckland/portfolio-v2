@@ -8,15 +8,19 @@
     background: rgb(255,241,232);
     background: linear-gradient(0deg, rgba(255,241,232,1) 0%, rgba(255,89,150,1) 100%);
     padding: 0 $margin-sides-desktop;
-    height: 100vh;
+    // height: 100vh;
 }
 
 .cardsContainer {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
     gap: 70px;
 }
+
 .heading {
     width: 100%;
+    margin: 50px 0;
+
 }
