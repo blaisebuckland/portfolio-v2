@@ -39,7 +39,7 @@ export const projectData = [
     image: hostileAliensImg,
     github: "https://github.com/blaisebuckland/hostile-aliens",
     url: "blaisebuckland.github.io/hostile-aliens/",
-    technologies: ["JavaScript", "Jest"],
+    technologies: ["JavaScript", "Jest", "OOP"],
   },
   {
     name: "Calculator",
