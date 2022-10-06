@@ -1,4 +1,5 @@
 import React, { useState} from 'react';
+import { Link} from "react-scroll";
 import styles from './NavBar.module.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -17,17 +18,17 @@ const NavBar = () => {
     <nav className={styles.navContainer} id="navBar">
       <h2 className={styles.logo}>BB</h2>
       <section className={styles.navLinksContainer}>
-        <a href="#projects" className={styles.navLinks}>Portfolio</a>
-        <a href="#about" className={styles.navLinks}>About</a>
-        <a href="#contact" className={`${styles.navLinks} ${styles.contactLink}`}>Contact me</a>
+      <Link to="projects" smooth={true} duration={500} className={styles.navLinks}>Portfolio</Link>
+      <Link to="about" smooth={true} duration={500} className={styles.navLinks}>About</Link>
+      <Link to="contact" smooth={true} duration={500} className={styles.navLinks}>Contact me</Link>
       </section>
 
       <section className={styles.menuContainer}>
           <FontAwesomeIcon icon={faBars} className={styles.menuIcon} onClick={toggleMenuOpen} />
             <div className={menuStyle}>
-              <a href="#projects" className={styles.navLinks}>Portfolio</a>
-              <a href="#about" className={styles.navLinks}>About</a>
-              <a href="#contact" className={`${styles.navLinks}`}>Contact me</a>
+              <Link to="projects" smooth={true} duration={500} className={styles.navLinks}>Portfolio</Link>
+              <Link to="about" smooth={true} duration={500} className={styles.navLinks}>About</Link>
+              <Link to="contact" smooth={true} duration={500} className={styles.navLinks}>Contact me</Link>
             </div> 
       </section>
     </nav>
