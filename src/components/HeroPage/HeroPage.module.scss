@@ -64,3 +64,34 @@
     }
     
 }
+
+@media screen and (max-width: 700px) {
+    .intro {
+        display: none;
+    }
+
+    .textContainer {
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .textContainer {
+        margin-left: $margin-sides-tablet;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .textContainer {
+        margin-right: $margin-sides-tablet;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .heading {
+        font-size: 35px;
+    }
+    .textContainer {
+        height: 200px;
+    }
+}
