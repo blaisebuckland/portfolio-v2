@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-evenly;
     width: 80vw;
-    margin: 100px 10vw 50px 10vw;
+    margin: $margin-top $margin-sides $margin-top*0.5 $margin-sides;
 
 }
 
@@ -28,7 +28,6 @@
 
 .jobHeading {
     font-weight: 700;
-    // margin: 15px;
 }
 
 .jobSubheading {
@@ -36,16 +35,19 @@
     margin-bottom: 15px;
 }
 
+.jobListItem {
+    margin-bottom: 5px;
+}
+
 .skillsContainer {
     display: flex;
     flex-direction: column;
-    // text-align: center;
-    // justify-content: center;
     align-items: center;
 }
 
 .skillsIntro {
     font-size: 19px;
+    text-align: center;
 }
 
 .list {
@@ -64,6 +66,7 @@
     justify-content: center;
     align-items: center;
     font-size: 14px;
+    margin: 0 10px;
 }
 
 .skillsIcon {
@@ -83,4 +86,50 @@
         justify-content: center;
     }
 
+}
+
+@media screen and (max-width:1110px) {
+    .experienceContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .jobContainer {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:910px) {
+
+    .jobContainer {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:830px) {
+
+    .skillsIntro {
+        width: 70vw;
+        
+    }
+}
+
+@media screen and (max-width: 702px) {
+    .aboutContainer {
+        margin: $margin-top-tablet $margin-sides-tablet $margin-top*0.5 $margin-sides-tablet;
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .jobListItem {
+        font-size: 14px;
+    }
+    .skillsIntro {
+        font-size: 17px;
+    }
+    .listItem {
+        font-size: 12px;
+    }
 }
