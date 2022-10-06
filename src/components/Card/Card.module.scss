@@ -8,13 +8,10 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 275px;
-    width: 438.42px;
+    height: $card-height-large;
     transform-style: preserve-3d;
     transition: 400ms;
     cursor: pointer;
-    border: 1px solid $color-black;
-    border-radius: 2px;
 }
 
 .faceDown {
@@ -45,9 +42,32 @@
 }
 
 .projectHeading {
-    // text-decoration: underline;
-    width: 440px;
+    width: $card-width-large;
     border-bottom: 1px solid $color-black;
     padding-bottom: 8px;
     margin: 8px 0;
+}
+
+@media screen and (max-width: 540px) {
+    .card {
+        height: $card-height-medium;
+        width: $card-width-medium;
+    }
+    .projectHeading {
+        width: $card-width-medium;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .card {
+        height: $card-height-small;
+        width: $card-width-small;
+    }
+    .projectHeading {
+        width: $card-width-small;
+        font-size: 18px;
+    }
+    .technologies {
+        font-size: 10px;
+    }
 }

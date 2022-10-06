@@ -1,16 +1,20 @@
 @import "../../variables.scss";
 
-.projectImg {
-    height: 273px;
-    // border-radius: 5px;
-    border-radius: 2px;
-}
-
 .cardFront {
-    // padding: 50px;
-    // border-radius: 5px;
-    display: flex;
-    
 
+    height: $card-height-large;
+    width: $card-width-large;
+    background-size: contain;
+    border: 1px solid $color-black;
+    border-radius: 2px;
+
+    @media screen and (max-width: 540px) {
+        height: $card-height-medium;
+        width: $card-width-medium;
+    }
+
+    @media screen and (max-width: 450px) {
+        height: $card-height-small;
+        width: $card-width-small;
+    }
 }
-

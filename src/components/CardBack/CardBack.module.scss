@@ -1,12 +1,13 @@
 @import "../../variables.scss";
 
 .cardBack {
-    height: 273px;
+    height: $card-height-large;
     background-color: $color-primary;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    border: 1px solid $color-black;
     border-radius: 2px;
 }
 
@@ -20,4 +21,28 @@
     background-color: $color-black;
     border-radius: 20px;
     padding: 3px 6px;
+}
+
+@media screen and (max-width: 540px) {
+    .cardBack {
+        height: $card-height-medium;
+        width: $card-width-medium;
+        font-size: 14px;
+    }
+    
+    .projectLink {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cardBack {
+        height: $card-height-small;
+        width: $card-width-small;
+        font-size: 10px;
+    }
+    .projectLink {
+        font-size: 9px;
+        margin-top: 10px;
+    }
 }
