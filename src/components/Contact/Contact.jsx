@@ -2,11 +2,14 @@ import React from 'react';
 import { Link} from "react-scroll";
 import styles from './Contact.module.scss';
 
+import profile from '../../assets/profile.jpg'
+
 const Contact= () => {
   return (
     <>
     <section className={styles.footerContainer} id="contact">
       <h2 className={styles.heading}>Let's <span className={styles.headingStylised}>work together</span></h2>
+      <img src={profile} alt="profile" className={styles.contactProfileImg}/>
       <a className={styles.contactLink} href="mailto:bucklandblaise@gmail.com">Email</a>
       <a className={styles.contactLink}  href="https://resume.io/r/qC1uFVV0u">CV</a>
       <a className={styles.contactLink}  href="https://github.com/blaisebuckland">GitHub</a>

@@ -5,10 +5,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40vh;
     margin-top: 100px;
     background: rgb(255,241,232);
-background: linear-gradient(180deg, rgba(255,241,232,1) 0%, rgba(255,89,150,1) 100%);
+    background: linear-gradient(180deg, rgba(255,241,232,1) 0%, rgba(255,89,150,1) 100%);
 }
 .heading {
     margin-bottom: 20px;
@@ -40,6 +39,7 @@ background: linear-gradient(180deg, rgba(255,241,232,1) 0%, rgba(255,89,150,1) 1
 .btn {
     background-color: $color-primary;
     padding: 8px;
+    cursor: pointer;
 }
 .btn:hover {
     background-color: $color-primary;
@@ -47,3 +47,33 @@ background: linear-gradient(180deg, rgba(255,241,232,1) 0%, rgba(255,89,150,1) 1
     color: $color-secondary;
 }
 
+.contactProfileImg {
+    height: 250px;
+    border-radius: 2px;
+    border: 4px solid $color-primary;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1311px) {
+    .contactProfileImg {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .contactProfileImg {
+        height: 175px;
+    }
+    .contactLink, .btn {
+        font-size: 19px;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .heading {
+        margin-right: $margin-sides-tablet;
+        margin-left: $margin-sides-tablet;
+        text-align: center;
+    }
+}
