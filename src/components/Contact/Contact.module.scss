@@ -24,7 +24,10 @@
     color: $color-black;
     font-size: 40px;
     text-align: end;
-    padding: 12px;
+    // padding: 12px;
+    padding: 0 $margin-sides*0.5 $margin-top*0.5 0;
+
+
 }
 .contactLink, .btn {
     color: $color-black;
