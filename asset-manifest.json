@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.3570ca39.css",
-    "main.js": "/portfolio-v2/static/js/main.42ecabe9.js",
+    "main.css": "/portfolio-v2/static/css/main.4b554f03.css",
+    "main.js": "/portfolio-v2/static/js/main.ced54fec.js",
     "static/js/787.d9a20797.chunk.js": "/portfolio-v2/static/js/787.d9a20797.chunk.js",
     "static/media/profile.jpg": "/portfolio-v2/static/media/profile.cbbfa26a133b4d1e60f9.jpg",
     "static/media/brewdog.png": "/portfolio-v2/static/media/brewdog.aaa542903453a006b1b6.png",
     "static/media/pairs.png": "/portfolio-v2/static/media/pairs.65c0329bf0a730a87761.png",
     "static/media/calculator.png": "/portfolio-v2/static/media/calculator.32ee1b778cc359d2aec9.png",
+    "static/media/Blaise-Buckland-CV.pdf": "/portfolio-v2/static/media/Blaise-Buckland-CV.befb8c3215be72b3e278.pdf",
     "static/media/morse-translator.png": "/portfolio-v2/static/media/morse-translator.1fa08996409f31b0c613.png",
     "static/media/hostile-aliens.png": "/portfolio-v2/static/media/hostile-aliens.7d4732e31f3eed24bb96.png",
     "static/media/nology.svg": "/portfolio-v2/static/media/nology.9f2904abf1da7791206c8eee0e6e05ed.svg",
     "static/media/JAC.webp": "/portfolio-v2/static/media/JAC.65326a41c54b9b40b070.webp",
     "index.html": "/portfolio-v2/index.html",
-    "main.3570ca39.css.map": "/portfolio-v2/static/css/main.3570ca39.css.map",
-    "main.42ecabe9.js.map": "/portfolio-v2/static/js/main.42ecabe9.js.map",
+    "main.4b554f03.css.map": "/portfolio-v2/static/css/main.4b554f03.css.map",
+    "main.ced54fec.js.map": "/portfolio-v2/static/js/main.ced54fec.js.map",
     "787.d9a20797.chunk.js.map": "/portfolio-v2/static/js/787.d9a20797.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3570ca39.css",
-    "static/js/main.42ecabe9.js"
+    "static/css/main.4b554f03.css",
+    "static/js/main.ced54fec.js"
   ]
 }
